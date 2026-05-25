@@ -1,0 +1,1 @@
+import{c as e,o as t}from"./index-DyUmCKdN.js";var n=e(),r=()=>(0,n.jsxs)(`div`,{className:`text-center py-24 text-gray-400`,children:[(0,n.jsx)(`p`,{className:`text-lg mb-4`,children:`This job listing doesn't exist.`}),(0,n.jsx)(t,{to:`/jobs`,className:`text-blue-600 hover:underline`,children:`Back to all jobs`})]});export{r as notFoundComponent};
