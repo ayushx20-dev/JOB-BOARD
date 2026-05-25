@@ -1,0 +1,11 @@
+.git
+.gitignore
+README.md
+node_modules
+.env.local
+.env.*.local
+.next/cache
+dist
+.turbo
+pnpm-debug.log
+.DS_Store
