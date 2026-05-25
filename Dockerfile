@@ -35,11 +35,12 @@ RUN pnpm install --prod --frozen-lockfile
 # Copy built application from builder
 COPY --from=builder /app/dist ./dist
 
-# Expose port (Heroku uses dynamic port via PORT environment variable)
+# Expose port
 EXPOSE 3000
 
 # Set environment variable for production
 ENV NODE_ENV=production
 
-# Start the application
-CMD ["node", "dist/index.js"]
+# Start the application (TanStack Start server)
+CMD ["node", "dist/server.js"]
+
